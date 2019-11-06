@@ -18,7 +18,7 @@ let crearArchivo = (base, limite) => {
             return;
         }
         data = multiplicar(base, limite);
-        fs.writeFile(`tablas/tabla${base}.xt`, data, (err) => {
+        fs.writeFile(`tablas/tabla${base}.txt`, data, (err) => {
             if (err)
                 reject(err);
             else

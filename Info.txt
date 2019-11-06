@@ -1,0 +1,20 @@
+
+sudo apt install git
+
+git --version
+git config --global user.name "Paul"
+git config --global user.email "gp99alz@gmail.com"
+cd cd 03-Bases-node/  navegar hasta la carpeta
+
+git init
+git status
+git add .
+git status
+git commit -m "Commit inicial" (indica archivos)
+
+
+git remote add origin https://github.com/Zntrk/BasesNodeJS.git (agregar repositorio remoto)
+git push -u origin master
+
+
+
