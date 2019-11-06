@@ -16,5 +16,9 @@ git commit -m "Commit inicial" (indica archivos)
 git remote add origin https://github.com/Zntrk/BasesNodeJS.git (agregar repositorio remoto)
 git push -u origin master
 
-
-
+(update)
+git add .
+git status
+git commit -m "agregar README, info"
+git status
+git push
